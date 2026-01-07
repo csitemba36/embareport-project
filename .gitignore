@@ -1,0 +1,33 @@
+# --- Folder Dependency (Wajib diabaikan) ---
+/vendor/
+node_modules/
+
+# --- File Konfigurasi Sensitif (Sangat Penting!) ---
+# Abaikan file yang berisi password database agar tidak terlihat oleh orang lain
+.env
+config/database.php
+config/config.php
+
+# --- File Log dan Temporary ---
+*.log
+/temp/
+/tmp/
+/cache/
+
+# --- File Sampah Sistem Operasi ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Folder Upload (Jika ada file gambar/user upload yang tidak ingin di-share) ---
+/uploads/
+/assets/uploads/
+
+# --- Pengaturan IDE/Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+api/gdrive/*.json
